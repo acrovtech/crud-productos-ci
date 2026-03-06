@@ -10,6 +10,5 @@ products.json
 # Ignore documents
 *.docx
 *.pdf
-*.txt
 *.md
 !README.md
