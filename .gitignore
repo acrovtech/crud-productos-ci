@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+products.json
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore documents
+*.docx
+*.pdf
+*.txt
+*.md
+!README.md
