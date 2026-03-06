@@ -25,7 +25,7 @@ jobs:
         run: flake8 .
 
       - name: Run tests
-        run: pytest --maxfail=1 --disable-warnings -q
+        run: PYTHONPATH=${{ github.workspace }}:$PYTHONPATH pytest --maxfail=1 --disable-warnings -q
 
   docker-deploy:
     runs-on: ubuntu-latest
